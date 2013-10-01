@@ -1,9 +1,9 @@
-<?php
+﻿<?php
 // nata_de_cocoデータベースへの接続情報
-$db_host = 'mysql469.db.sakura.ne.jp';
-$db_user = 'archeageparadox';
-$db_pass = 'paradox0305';
-$db_name = 'archeageparadox_pictdb';
+$db_host = 'localhost';
+$db_user = '';
+$db_pass = '';
+$db_name = '';
  
 
 //define('db_host', 'localhost');
