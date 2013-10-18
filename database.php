@@ -13,12 +13,12 @@
 	$password = "bls";
 	$database = "bls";
 
-	/**
+	/**++++++++++
 		DBに接続する。データベースは選択済みの状態になる。
 		戻り値はデータベースのリンク情報
 	*/
 
-	function open_link($url, $user, $password, $database)
+	function open_link()
 	{
 		$link = mysql_connect($url, $user, $password) or die("データベースへの接続に失敗しました。");
 		mysql_select_db($database, $link) or die("データベースの選択に失敗しました。");
