@@ -40,5 +40,17 @@
 		ユーザIDから会員情報を読み出す
 	*/
 	
+	/**
+		Gpsテーブルに位置情報を書き込む
+	*/
+
+	function write_gps($bus_id, $latitude, $longitude)
+	{
+		$now = date( "Y/m/d H:i:s", time());
+		$insert = "INSERT INTO gps ('bus_id', 'latitude', 'longitude', 'time') VALUES($bus_id, $latitude, $longitude, $now)";
+
+		return $insert;
+	}
 	
+
 ?>
