@@ -1,0 +1,26 @@
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mdeleted file mode 100644[m
+[1mindex fb8e9e0..0000000[m
+[1m--- a/.gitignore[m
+[1m+++ /dev/null[m
+[36m@@ -1,20 +0,0 @@[m
+[31m-# built application files[m
+[31m-*.apk[m
+[31m-*.ap_[m
+[31m-[m
+[31m-# files for the dex VM[m
+[31m-*.dex[m
+[31m-[m
+[31m-# Java class files[m
+[31m-*.class[m
+[31m-[m
+[31m-# generated files[m
+[31m-bin/[m
+[31m-gen/[m
+[31m-[m
+[31m-# Local configuration file (sdk path, etc)[m
+[31m-local.properties[m
+[31m-[m
+[31m-# Eclipse project files[m
+[31m-.classpath[m
+[31m-.project[m
